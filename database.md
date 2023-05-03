@@ -1,5 +1,5 @@
 
-##Create database schema`hinge_heath` 
+## Create database schema`hinge_heath` 
 CREATE DATABASE `hinge_heath`;
 
 ## Create table`tree_data` in above DB schema
