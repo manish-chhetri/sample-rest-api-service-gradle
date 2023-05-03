@@ -1,0 +1,23 @@
+
+spring:
+    datasource:
+        driverClassName: com.mysql.cj.jdbc.Driver
+        url: jdbc:mysql://localhost:3306/hinge_health
+        username: root
+        password:
+    jpa:
+        hibernate.ddl-auto: update
+        generate-ddl: true
+        show-sql: false
+    mvc:
+        pathmatch:
+            matching-strategy: ANT_PATH_MATCHER
+
+controller:
+    path:
+        getTree: "/api/tree"
+        postTree: "/api/tree"
+exception:
+    missingDataLabelError: "Data label is missing"
+    missingDataParentException: "Data parent is missing"
+    dataAlreadyExistsError: "Data already exists"
